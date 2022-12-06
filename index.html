@@ -9,32 +9,26 @@
     <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
   </head>
   <body>
-    <table class="bg-primary">
-      <tr>
-        <td>total belanja</td>
-        <td>
-          <input type="text" id="totalBelanja" />
-        </td>
-      </tr>
-      <tr>
-        <td>diskon (%)</td>
-        <td id="diskon">0 %</td>
-      </tr>
-      <tr>
-        <td>total harga</td>
-        <td id="totalHarga">0</td>
-      </tr>
-      <tr>
-        <td>tunai</td>
-        <td>
-          <input type="text" id="tunai" />
-        </td>
-      </tr>
-      <tr>
-        <td>kembalian</td>
-        <td id="kembalian">0</td>
-      </tr>
-      <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
-    </table>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm mt-3">
+          <div class="card">
+            <div class="card-header">
+              <h1 class="text-center">Program Kasir Sederhana</h1>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm mt-3">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput totalBelanja" placeholder="name@example.com" />
+                    <label for="floatingInput">Total Belanja</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
